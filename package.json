@@ -1,7 +1,7 @@
 {
   "name": "loicnoss.com.portfolio",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My personal website",
   "author": "Loïc Noss <contact@loicnoss.com>",
   "repository": {
@@ -11,11 +11,10 @@
   "license": "MIT",
   "browserslist": "defaults",
   "scripts": {
-    "dev": "bunx --bun astro dev",
-    "start": "bunx --bun astro dev",
-    "build": "bunx --bun astro build",
-    "preview": "bunx --bun astro preview",
-    "astro": "bunx --bun astro"
+    "start": "bun --bun x astro dev",
+    "build": "bun --bun x astro build",
+    "preview": "bun --bun x astro preview",
+    "astro": "bun --bun x astro"
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.0.2",
